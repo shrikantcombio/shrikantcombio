@@ -1,10 +1,12 @@
-# Hi there, I'm Shri Kant 👋 🔬
+# Hi there, I'm Dr. Shri Kant 👋 🔬
 
-[![CSB Lab IIT Kharagpur](https://img.shields.io/badge/Affiliation-CSB%20Lab%2C%20IIT%20Kharagpur-orange.svg)](http://www.csb.iitkgp.ac.in/)
+[![Postdoc NCBS TIFR](https://img.shields.io/badge/Postdoc-NCBS%2C%20TIFR%20Bangalore-purple.svg)](https://www.ncbs.res.in/)
+[![PhD IIT Kharagpur](https://img.shields.io/badge/PhD-CSB%20Lab%2C%20IIT%20Kharagpur-orange.svg)](http://www.csb.iitkgp.ac.in/)
 [![GitHub PRince](https://img.shields.io/badge/Featured%20Project-PRince%20Package-brightgreen.svg)](https://github.com/shrikantcombio/PRince)
 [![Email](https://img.shields.io/badge/Email-shrikant92pharmacy%40gmail.com-blue?logo=gmail)](mailto:shrikant92pharmacy@gmail.com)
 
-> **Computational Biologist & Research Scholar** @ **CSB Lab, IIT Kharagpur**  
+> **Postdoctoral Researcher** @ **National Centre for Biological Sciences (NCBS), TIFR, Bangalore**  
+> 🎓 **PhD in Computational Structural Biology** @ **CSB Lab, IIT Kharagpur**  
 > Focused on Structural Bioinformatics, Biomolecular Interactions (Protein-RNA/DNA/Ligand), Macromolecular SASA & Energetics, and Machine Learning in Computational Biology.
 
 ---
@@ -40,7 +42,7 @@
 ## 📈 GitHub Statistics & Language Distribution
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=shrikantcombio&show_icons=true&theme=nord&count_private=true" height="175" alt="Shri Kant's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shrikantcombio&show_icons=true&theme=nord&count_private=true" height="175" alt="Dr. Shri Kant's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shrikantcombio&layout=compact&theme=nord" height="175" alt="Top Languages" />
 </p>
 
@@ -48,7 +50,8 @@
 
 ## 📫 Connect & Collaboration
 
-- 🏢 **Laboratory**: [CSB Lab, IIT Kharagpur](http://www.csb.iitkgp.ac.in/)
+- 🏛️ **Current Institution**: [National Centre for Biological Sciences (NCBS), TIFR, Bangalore](https://www.ncbs.res.in/)
+- 🎓 **Alma Mater**: [CSB Lab, IIT Kharagpur](http://www.csb.iitkgp.ac.in/)
 - 📧 **Email**: [shrikant92pharmacy@gmail.com](mailto:shrikant92pharmacy@gmail.com)
 - 🐙 **GitHub Profile**: [shrikantcombio](https://github.com/shrikantcombio)
 
