@@ -1,5 +1,6 @@
 # Hi there, I'm Dr. Shri Kant 👋 🔬
 
+[![Website](https://img.shields.io/badge/Website-shrikant--kaushik.github.io-blue.svg)](https://shrikant-kaushik.github.io)
 [![Postdoc NCBS TIFR](https://img.shields.io/badge/Postdoc-NCBS%2C%20TIFR%20Bangalore-purple.svg)](https://www.ncbs.res.in/)
 [![PhD IIT Kharagpur](https://img.shields.io/badge/PhD-CSB%20Lab%2C%20IIT%20Kharagpur-orange.svg)](http://www.csb.iitkgp.ac.in/)
 [![GitHub PRince](https://img.shields.io/badge/Featured%20Project-PRince%20Package-brightgreen.svg)](https://github.com/shrikantcombio/PRince)
@@ -50,9 +51,10 @@
 
 ## 📫 Connect & Collaboration
 
+- 🌐 **Personal Website**: [https://shrikant-kaushik.github.io](https://shrikant-kaushik.github.io)
 - 🏛️ **Current Institution**: [National Centre for Biological Sciences (NCBS), TIFR, Bangalore](https://www.ncbs.res.in/)
 - 🎓 **Alma Mater**: [CSB Lab, IIT Kharagpur](http://www.csb.iitkgp.ac.in/)
-- 📧 **Email**: [shrikant92pharmacy@gmail.com](mailto:shrikant92pharmacy@gmail.com)
+- 📧 **Email**: [shrikanth@ncbs.res.in](mailto:shrikanth@ncbs.res.in) / [shrikant92pharmacy@gmail.com](mailto:shrikant92pharmacy@gmail.com)
 - 🐙 **GitHub Profile**: [shrikantcombio](https://github.com/shrikantcombio)
 
 ---
