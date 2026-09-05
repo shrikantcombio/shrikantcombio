@@ -1,46 +1,99 @@
 # Hi there, I'm Dr. Shri Kant 👋 🔬
 
-[![Website](https://img.shields.io/badge/Website-shrikant--kaushik.github.io-blue.svg)](https://shrikant-kaushik.github.io)
-[![Postdoc NCBS TIFR](https://img.shields.io/badge/Postdoc-NCBS%2C%20TIFR%20Bangalore-purple.svg)](https://www.ncbs.res.in/)
-[![PhD IIT Kharagpur](https://img.shields.io/badge/PhD-CSB%20Lab%2C%20IIT%20Kharagpur-orange.svg)](http://www.csb.iitkgp.ac.in/)
-[![GitHub PRince](https://img.shields.io/badge/Featured%20Project-PRince%20Package-brightgreen.svg)](https://github.com/shrikantcombio/PRince)
-[![Email](https://img.shields.io/badge/Email-shrikant92pharmacy%40gmail.com-blue?logo=gmail)](mailto:shrikant92pharmacy@gmail.com)
+[![Postdoc](https://img.shields.io/badge/Postdoc-Université%20Paris%20Cité%20%26%20Univ.%20of%20Reunion%2C%20France-purple.svg?style=flat-square)](https://u-paris.fr/)
+[![PhD IIT Kharagpur](https://img.shields.io/badge/PhD-CSB%20Lab%2C%20IIT%20Kharagpur-orange.svg?style=flat-square)](http://www.csb.iitkgp.ac.in/)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0211--539X-green.svg?style=flat-square&logo=orcid)](https://orcid.org/0000-0003-0211-539X)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Citations-4285F4.svg?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=shrikantcombio)
+[![Website](https://img.shields.io/badge/Website-shrikant--kaushik.github.io-blue.svg?style=flat-square)](https://shrikant-kaushik.github.io)
+[![Email](https://img.shields.io/badge/Email-shrikant92pharmacy%40gmail.com-blue.svg?style=flat-square&logo=gmail)](mailto:shrikant92pharmacy@gmail.com)
 
-> **Postdoctoral Researcher** @ **University Paris City & University of Reunion, France**  
-> 🎓 **PhD in Computational Structural Biology** @ **CSB Lab, IIT Kharagpur**  
-> Focused on Structural Bioinformatics, Biomolecular Recognition (Protein-RNA/DNA/Ligand), Macromolecular Conformations (Rotamers) & their Energetics, and Machine Learning in Computational Biology.
-
----
-
-## 🔬 Research Focus & Areas of Interest
-
-- 🧬 **Biomolecular Interface Analysis**: SASA, Buried Surface Area (BSA), Local Packing Density (LD), Hydrogen Bonding, and Water Bridge Networks in Protein-RNA/DNA/Ligand complexes.
-- 💻 **High-Performance Scientific Computing**: C/C++ & Python package development for large-scale structural dataset extraction (PDB & mmCIF format processing).
-- 🤖 **Machine Learning in Structural Biology**: Predictive modeling of Transcription Factor non-redundant datasets (**TF-NRD**) and macromolecular interaction dynamics.
-- 📐 **Rotamer & Structural Analysis**: Advanced rotamer assignment and conformational analysis in proteins and nucleic acids.
+> **Postdoctoral Researcher** @ **Université Paris Cité & Université de La Réunion, France**  
+> 🎓 **PhD in Computational Structural Biology** @ **CSB Lab, Indian Institute of Technology Kharagpur**  
+> 📖 **PhD Thesis**: *"Conformational analysis of protein–RNA recognition"* (Advisor: Prof. Ranjit P. Bahadur)  
+> 🎯 **Research Focus**: Protein–RNA recognition mechanisms, conformational selection & induced fit, RNA-binding protein rotamer libraries, RNA conformers, high-performance computing (HPC), and multi-microsecond molecular dynamics simulations.
 
 ---
 
-## 🚀 Featured Open-Source Projects
+## 🔬 Major PhD Research Contributions (Protein–RNA Recognition)
 
-| Repository | Description | Technologies |
+My doctoral research centered on deciphering the molecular principles, conformational transitions, and energetics governing protein–RNA recognition across four major contributions:
+
+### 1. [PRDB v3.0: Protein–RNA Docking Benchmark & Binding Affinity](https://github.com/shrikantcombio/PRDBv3_dataset.git)
+* **Overview**: Developed a non-redundant, high-resolution protein–RNA docking benchmark dataset (version 3.0) integrated with experimental binding affinity ($\Delta G / K_d$).
+* **Significance**: Provides the structural biology community with a standardized gold standard to evaluate rigid-body and flexible docking algorithms, scoring functions, and interface energetics.
+* **Publication**: *Proteins: Structure, Function, and Bioinformatics* (2025) | [DOI: 10.1002/prot.26825](https://doi.org/10.1002/prot.26825)
+* **Repository**: [`shrikantcombio/PRDBv3_dataset`](https://github.com/shrikantcombio/PRDBv3_dataset.git)
+
+### 2. [RBP-Specific Rotamer Libraries (BBD, BBI, and SSD)](https://github.com/shrikantcombio/RBPs_rotamer_lib.git)
+* **Overview**: Built RNA-binding protein-specific **Backbone-Dependent (BBD)**, **Backbone-Independent (BBI)**, and **Secondary Structure-Dependent (SSD)** side-chain rotamer libraries.
+* **Significance**: Characterized the side-chain conformational transitions that occur upon RNA binding, providing essential priors for accurate modeling of induced-fit side-chain adjustments in RBPs.
+* **Status**: *Nucleic Acids Research* (2025, Submitted)
+* **Repository**: [`shrikantcombio/RBPs_rotamer_lib`](https://github.com/shrikantcombio/RBPs_rotamer_lib.git)
+
+### 3. [RNA diNucleotide Conformers Library for Protein–RNA Complexes](https://github.com/shrikantcombio/RBPs_RNA_conformers_lib.git)
+* **Overview**: Curated a structural library of RNA dinucleotide conformers in both bound and unbound protein–RNA complexes.
+* **Significance**: Systematically decoded RNA backbone flexibility ($\alpha, \beta, \gamma, \delta, \epsilon, \zeta$) and glycosidic ($\chi$) torsion angles, uncovering the conformational selection vs. induced-fit dynamics of RNA in macromolecular recognition.
+* **Status**: *RNA Journal* (2025, Under Revision) | [BioRxiv: 10.64898/2026.05.14.725147](https://doi.org/10.64898/2026.05.14.725147)
+* **Repository**: [`shrikantcombio/RBPs_RNA_conformers_lib`](https://github.com/shrikantcombio/RBPs_RNA_conformers_lib.git)
+
+### 4. Molecular Dynamics of Non-Canonical RNA-Binding Domains
+* **Overview**: Applied multi-microsecond all-atom Molecular Dynamics simulations (using GROMACS & AMBER on IIT Kharagpur's *Paramshakti* supercomputer) to investigate non-canonical RBP recognition.
+* **Significance**: Unraveled mutually induced conformational changes in the Ubiquitin-Like Domain (ULD) of SF3A1 recognizing the stem-loop 4 (SL4) of U1 snRNA during early spliceosome assembly.
+* **Status**: *Journal of Molecular Recognition* (2026, Under Revision) | [BioRxiv: 10.64898/2026.03.30.715355](https://doi.org/10.64898/2026.03.30.715355)
+
+---
+
+## 🛠️ Current Software & Webserver Development
+
+Active computational platforms and toolkits currently under development:
+
+| Platform / Tool | Description | Tech Stack |
 | :--- | :--- | :--- |
-| 👑 [**PRince**](https://github.com/shrikantcombio/PRince) | Modernized C-based automated interface & interaction calculator for Protein-Protein, Protein-RNA, Protein-DNA, and Protein-Ligand complexes (PDB & mmCIF support). | `C99`, `Python`, `NACCESS`, `HBPLUS`, `Bash` |
-| 📊 **TF-NRD Analysis** | Transcription Factor Non-Redundant Dataset interface property extraction and multi-sheet analysis suite. | `Python`, `Pandas`, `OpenPyXL`, `Biopython` |
-| 🔄 **Rota-Assign Utilities** | Rotamer assignment, mmCIF duplicate cleaning, and structural reader utilities. | `Python`, `Bio.PDB`, `mmCIF` |
+| 🌐 **NAPxplorer** | Interactive webserver for exploring, analyzing, and visualizing Nucleic Acid–Protein complexes, structural torsions, and DSSR secondary structure annotations. | `Python`, `Django`, `x3dna-dssr`, `PyMOL/3Dmol.js`, `REST API` |
+| 👑 [**PRince v2.0**](https://github.com/shrikantcombio/PRince) | Next-generation webserver & ultra-fast C calculation engine for automated interface analysis (SASA, BSA, HBPLUS hydrogen bonding, water bridges) in Protein-RNA/DNA/Ligand complexes. | `C99`, `Python`, `NACCESS`, `HBPLUS`, `Bash` |
+| 🧬 **DBTraj** | Specialized Molecular Dynamics trajectory analysis toolkit engineered for protein–RNA complexes: tracking interface persistence, conformational transitions, and dynamic interaction networks. | `Python`, `MDAnalysis`, `GROMACS`, `NumPy`, `Seaborn` |
+| 📊 **TF-NRD Suite** | Structural bioinformatics pipeline for the Transcription Factors Non-Redundant Dataset (*JSB* under revision). | `Python`, `Pandas`, `Biopython`, `mmCIF` |
 
 ---
 
-## 🛠️ Tech Stack & Technical Expertise
+## 📚 Selected Publications & Preprints
 
-- **Languages**: C, C++, Python, Bash / Shell Scripting, R
-- **Bioinformatics & Structural Tools**: NACCESS, HBPLUS, PyMOL, DSSP, HSSP, Bio.PDB, OpenMM
-- **Data Science & ML**: NumPy, Pandas, Scikit-learn, PyTorch, Matplotlib, Seaborn
-- **Development & Build Systems**: Git, GitHub Actions, Linux Systems Administration, Makefile, CMake
+1. **Kant S**, Chandran N, Mukherjee S, Maity A, Bahadur RP. (2025). **Protein-RNA Docking Benchmark v3.0 integrated with Binding Affinity.** *Proteins: Structure, Function, and Bioinformatics*. [DOI: 10.1002/prot.26825](https://doi.org/10.1002/prot.26825)
+2. Mukherjee S\*, **Kant S\***, Bahadur RP. (2025). **Transition of side-chain conformations of RNA-binding proteins upon binding RNA.** *Nucleic Acids Research* (Submitted). (\*Joint first authors)
+3. **Kant S**, Masipeddi S, Bahadur RP. (2025). **Deciphering conformational preferences of RNA in protein-RNA recognition.** *RNA Journal* (Under Revision). [BioRxiv: 10.64898/2026.05.14.725147](https://doi.org/10.64898/2026.05.14.725147)
+4. **Kant S**. (2026). **Decoding Mutually Induced Conformational Changes in Non-Canonical Recognition of U1 SL4 snRNA by ULD of SF3A1 during Early Spliceosome Assembly.** *Journal of Molecular Recognition* (Under Revision). [BioRxiv: 10.64898/2026.03.30.715355](https://doi.org/10.64898/2026.03.30.715355)
+5. Garai S\*, **Kant S\***, Bahadur RP. (2026). **TF-NRD: Transcription Factors non-Redundant Sequence and Structure Dataset.** *Journal of Structural Biology* (Under Revision).
+6. Agarwal A, **Kant S**, Bahadur RP. (2023). **Efficient mapping of RNA-binding residues using local sequence features in protein-RNA complexes.** *Proteins: Structure, Function, and Bioinformatics*. [DOI: 10.1002/prot.26528](https://doi.org/10.1002/prot.26528)
+7. Agarwal A, Alagar S, **Kant S**, Bahadur RP. (2023). **Binding dynamics of tandem RNA recognition motifs (tRRMs) of HuR with mRNA.** *Journal of Biomolecular Structure and Dynamics*. [DOI: 10.1080/07391102.2022.2073270](https://doi.org/10.1080/07391102.2022.2073270)
+8. Agarwal A, Singh K, **Kant S**, Bahadur RP. (2022). **Comparative analysis of machine learning classifiers for predicting protein-binding nucleotides in RNA sequences.** *Computational and Structural Biotechnology Journal*. [DOI: 10.1016/j.csbj.2022.06.036](https://doi.org/10.1016/j.csbj.2022.06.036)
 
 ---
 
-## 📈 GitHub Statistics & Language Distribution
+## 💻 Computational Skills & Supercomputing (HPC)
+
+* **Programming & Scripting**: Python, C, C++, R, Bash / Shell Scripting
+* **Molecular Dynamics Simulations**: GROMACS, AMBER, VMD, trajectory analysis pipelines
+* **Structural Bioinformatics & Modeling**: NACCESS, HBPLUS, x3dna-dssr, DSSP, US-align, TM-align, MMseqs2, MODELLER, PyMOL, ChimeraX
+* **High-Performance Computing (HPC)**: Slurm workload manager, parallel job arrays, Paramshakti Supercomputer (National Supercomputing Mission, NSM)
+* **Machine Learning & Data Science**: Scikit-learn, PyTorch, NumPy, Pandas, SciPy, Matplotlib, Seaborn
+* **Web Development & Databases**: Django, HTML/CSS, PHP, MySQL, Apache, REST APIs
+* **Environments**: Linux (Ubuntu, CentOS), Git, GitHub Actions, Docker
+
+---
+
+## 🏆 Honors, Awards & Fellowship
+
+* **Postdoctoral Researcher** – Université Paris Cité & Université de La Réunion, France
+* **Former Postdoctoral Fellow** – National Centre for Biological Sciences (NCBS), TIFR, Bangalore
+* **Travel Grant** – 13th RNA India Meeting (2026), IISc Bengaluru
+* **Travel Grant** – EMBL Conference: *The Expanding World of RBPs* (2025), Heidelberg, Germany
+* **Fully Funded Fellow** – EMBO Workshop on Computational Structural Biology (2023), Heidelberg, Germany
+* **Institute Research Fellowship** – IIT Kharagpur (2018–2024)
+* **All India Rank (AIR) 4** – DBT Computational Biology Entrance Examination
+
+---
+
+## 📈 GitHub Statistics & Activity
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=shrikantcombio&show_icons=true&theme=nord&count_private=true" height="175" alt="Dr. Shri Kant's GitHub Stats" />
@@ -49,13 +102,15 @@
 
 ---
 
-## 📫 Connect & Collaboration
+## 📫 Connect & Collaborate
 
-- 🌐 **Personal Website**: [https://shrikant-kaushik.github.io](https://shrikant-kaushik.github.io)
-- 🏛️ **Current Institution**: [National Centre for Biological Sciences (NCBS), TIFR, Bangalore](https://www.ncbs.res.in/)
-- 🎓 **Alma Mater**: [CSB Lab, IIT Kharagpur](http://www.csb.iitkgp.ac.in/)
-- 📧 **Email**: [shrikanth@ncbs.res.in](mailto:shrikanth@ncbs.res.in) / [shrikant92pharmacy@gmail.com](mailto:shrikant92pharmacy@gmail.com)
-- 🐙 **GitHub Profile**: [shrikantcombio](https://github.com/shrikantcombio)
+* 🌐 **Personal Website**: [https://shrikant-kaushik.github.io](https://shrikant-kaushik.github.io)
+* 🏛️ **Current Affiliation**: [Université Paris Cité](https://u-paris.fr/) & [Université de La Réunion](https://www.univ-reunion.fr/), France
+* 🏛️ **Former Affiliation**: [National Centre for Biological Sciences (NCBS), TIFR, Bangalore](https://www.ncbs.res.in/)
+* 🎓 **Alma Mater**: [CSB Lab, IIT Kharagpur](http://www.csb.iitkgp.ac.in/)
+* 📬 **Email**: [shrikant92pharmacy@gmail.com](mailto:shrikant92pharmacy@gmail.com)
+* 💼 **LinkedIn**: [Dr. Shri Kant](https://www.linkedin.com/in/shrikant-kaushik)
+* 🐙 **GitHub Profile**: [@shrikantcombio](https://github.com/shrikantcombio)
 
 ---
-<p align="center"><i>"Decoding biomolecular recognition through structure, algorithms, and data."</i></p>
+<p align="center"><i>"Decoding the structural dynamics and energetics of biomolecular recognition through computation and algorithms."</i></p>
