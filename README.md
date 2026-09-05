@@ -5,9 +5,9 @@
 [![GitHub PRince](https://img.shields.io/badge/Featured%20Project-PRince%20Package-brightgreen.svg)](https://github.com/shrikantcombio/PRince)
 [![Email](https://img.shields.io/badge/Email-shrikant92pharmacy%40gmail.com-blue?logo=gmail)](mailto:shrikant92pharmacy@gmail.com)
 
-> **Postdoctoral Researcher** @ **National Centre for Biological Sciences (NCBS), TIFR, Bangalore**  
+> **Postdoctoral Researcher** @ **University Paris City & University of Reunion, France**  
 > 🎓 **PhD in Computational Structural Biology** @ **CSB Lab, IIT Kharagpur**  
-> Focused on Structural Bioinformatics, Biomolecular Interactions (Protein-RNA/DNA/Ligand), Macromolecular SASA & Energetics, and Machine Learning in Computational Biology.
+> Focused on Structural Bioinformatics, Biomolecular Recognition (Protein-RNA/DNA/Ligand), Macromolecular Conformations (Rotamers) & their Energetics, and Machine Learning in Computational Biology.
 
 ---
 
