@@ -20,24 +20,28 @@
 My doctoral research centered on deciphering the molecular principles, conformational transitions, and energetics governing protein–RNA recognition across four major contributions:
 
 ### 1. [PRDB v3.0: Protein–RNA Docking Benchmark & Binding Affinity](https://github.com/shrikantcombio/PRDBv3_dataset.git)
+
 * **Overview**: Developed a non-redundant, high-resolution protein–RNA docking benchmark dataset (version 3.0) integrated with experimental binding affinity ($\Delta G / K_d$).
 * **Significance**: Provides the structural biology community with a standardized gold standard to evaluate rigid-body and flexible docking algorithms, scoring functions, and interface energetics.
 * **Publication**: *Proteins: Structure, Function, and Bioinformatics* (2025) | [DOI: 10.1002/prot.26825](https://doi.org/10.1002/prot.26825)
 * **Repository**: [`shrikantcombio/PRDBv3_dataset`](https://github.com/shrikantcombio/PRDBv3_dataset.git)
 
 ### 2. [RBP-Specific Rotamer Libraries (BBD, BBI, and SSD)](https://github.com/shrikantcombio/RBPs_rotamer_lib.git)
+
 * **Overview**: Built RNA-binding protein-specific **Backbone-Dependent (BBD)**, **Backbone-Independent (BBI)**, and **Secondary Structure-Dependent (SSD)** side-chain rotamer libraries.
 * **Significance**: Characterized the side-chain conformational transitions that occur upon RNA binding, providing essential priors for accurate modeling of induced-fit side-chain adjustments in RBPs.
 * **Status**: *Nucleic Acids Research* (2025, Submitted)
 * **Repository**: [`shrikantcombio/RBPs_rotamer_lib`](https://github.com/shrikantcombio/RBPs_rotamer_lib.git)
 
 ### 3. [RNA diNucleotide Conformers Library for Protein–RNA Complexes](https://github.com/shrikantcombio/RBPs_RNA_conformers_lib.git)
+
 * **Overview**: Curated a structural library of RNA dinucleotide conformers in both bound and unbound protein–RNA complexes.
 * **Significance**: Systematically decoded RNA backbone flexibility ($\alpha, \beta, \gamma, \delta, \epsilon, \zeta$) and glycosidic ($\chi$) torsion angles, uncovering the conformational selection vs. induced-fit dynamics of RNA in macromolecular recognition.
 * **Status**: *RNA Journal* (2025, Under Revision) | [BioRxiv: 10.64898/2026.05.14.725147](https://doi.org/10.64898/2026.05.14.725147)
 * **Repository**: [`shrikantcombio/RBPs_RNA_conformers_lib`](https://github.com/shrikantcombio/RBPs_RNA_conformers_lib.git)
 
 ### 4. Molecular Dynamics of Non-Canonical RNA-Binding Domains
+
 * **Overview**: Applied multi-microsecond all-atom Molecular Dynamics simulations (using GROMACS & AMBER on [IIT Kharagpur's](https://www.iitkgp.ac.in/) *Paramshakti* supercomputer) to investigate non-canonical RBP recognition.
 * **Significance**: Unraveled mutually induced conformational changes in the Ubiquitin-Like Domain (ULD) of SF3A1 recognizing the stem-loop 4 (SL4) of U1 snRNA during early spliceosome assembly.
 * **Status**: *Journal of Molecular Recognition* (2026, Under Revision) | [BioRxiv: 10.64898/2026.03.30.715355](https://doi.org/10.64898/2026.03.30.715355)
@@ -86,7 +90,6 @@ Active computational platforms and toolkits currently under development:
 ## 🏆 Honors, Awards & Fellowship
 
 * **Postdoctoral Researcher** – Université Paris Cité & Université de La Réunion, France
-* **Former Postdoctoral Fellow** – National Centre for Biological Sciences (NCBS), TIFR, Bangalore
 * **Travel Grant** – 13th RNA India Meeting (2026), IISc Bengaluru
 * **Travel Grant** – EMBL Conference: *The Expanding World of RBPs* (2025), Heidelberg, Germany
 * **Fully Funded Fellow** – EMBO Workshop on Computational Structural Biology (2023), Heidelberg, Germany
