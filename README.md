@@ -109,7 +109,7 @@ Active computational platforms and toolkits currently under development:
 
 ## 📫 Connect & Collaborate
 
-* 🌐 **Personal Website**: [https://shrikant-kaushik.github.io](https://shrikant-kaushik.github.io)
+* 🌐 **Personal Website**: [https://shrikantcombio.github.io/](https://shrikantcombio.github.io/)
 * 🏛️ **Current Affiliation 1**: [Université Paris Cité](https://u-paris.fr/) & [Université de La Réunion](https://www.univ-reunion.fr/), France
 * 🏛️ **Current Affiliation 2**: [National Centre for Biological Sciences (NCBS), TIFR, Bangalore](https://www.ncbs.res.in/)
 * 🎓 **Alma Mater**: [CSB Lab](http://www.csb.iitkgp.ac.in/), [Indian Institute of Technology Kharagpur](https://www.iitkgp.ac.in/)
